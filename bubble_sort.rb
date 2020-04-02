@@ -3,7 +3,7 @@ def bubble_sort(arr)
   swap = true
   while swap
     swap = false
-      (arr.length - 1).times do |e|
+    (arr.length - 1).times do |e|
         if arr[e] > arr[e + 1]
           arr[e], arr[e + 1] = arr[e + 1], arr[e]
           swap = true
