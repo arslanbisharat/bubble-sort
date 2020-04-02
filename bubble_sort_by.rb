@@ -8,7 +8,7 @@ def bubble_sort_by(arr)
           arr[e], arr[e + 1] = arr[e + 1], arr[e]
           swap = true
         end
-      end
+    end
   end
   arr
 end
