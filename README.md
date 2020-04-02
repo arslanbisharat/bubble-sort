@@ -3,6 +3,18 @@ This project is taken from: [odionhandle](https://www.theodinproject.com/courses
 
 ## Built With
    Ruby
+## Getting started
+
+### Prerequisites
+- To run this project, you must have Ruby installed in your computer.
+[This might Help](https://www.theodinproject.com/courses/web-development-101/lessons/installing-ruby)
+
+### Setup
+- Clone this repository to your local machine or download the files. [clone](https://github.com/arslanbisharat/bubble-sort/tree/main-branch)
+
+### Usage
+- Navigate to the project folder and run the main.rb file, using: ruby main.rb
+- To run the methods created here, you must call them from main.rb or create a new file with its purpose.
 
 ## Authors
 
