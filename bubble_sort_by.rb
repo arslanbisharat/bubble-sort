@@ -1,17 +1,17 @@
-def bubble_sort_by(arr)
-  return array if arr.length <= 1 
-    swap = true
-      while swap
-        swap = false
-        arr.length - 1.times do |e|
-          if (yield(arr[e], arr[e + 1]). > 0)
-            arr[e], arr[e + 1] = arr[e + 1], arr[e]
-            swap = true
-          end
+def bubble_sort_by(array)
+  return array if array.size <= 1
+  swap = true
+    while swap
+      swap = false
+      (array.length - 1).times do |x|
+        if (yield(array[x], array[x+1]) > 0)
+          array[x], array[x+1] = array[x+1], array[x]
+          swap = true
         end
       end
-    arr
+    end
+  array
 end
-  p bubble_sort_by(['hi', 'hello', 'hey']) { |left, right|
+p bubble_sort_by(['hi', 'hello', 'hey']) { |left, right|
   left.length - right.length
-    }
+  }
