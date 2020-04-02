@@ -1,5 +1,6 @@
 def bubble_sort(arr)
-  return array if arr.length <= 1
+  return array if 
+   arr.length <= 1
   swap = true
     while swap
       swap = false
