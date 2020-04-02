@@ -1,9 +1,8 @@
 def bubble_sort(arr)
   return array if arr.length <= 1
-  
   swap = true
   while swap
-      swap = false
+    swap = false
       (arr.length - 1).times do |e|
         if arr[e] > arr[e + 1]
           arr[e], arr[e + 1] = arr[e + 1], arr[e]
