@@ -6,7 +6,7 @@ def bubble_sort(arr)
         (arr.length - 1).times do |e|
           if arr[e] > arr[e + 1]
               arr[e], arr[e + 1] = arr[e + 1] , arr[e] 
-            end
+          end
         end
      end
     arr
