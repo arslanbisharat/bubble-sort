@@ -1,11 +1,11 @@
 def bubble_sort_by(arr)
-  return arr if arr.length <= 1
+  return arr if arr.length <= 1 
   swap = true
     while swap
       swap = false
       (arr.length - 1).times do |e|
-        if (yield(arr[e], arr[e+1]) > 0)
-          arr[e], arr[e+1] = arr[e+1], arr[e]
+        if yield(arr[e], arr[e + 1]) > 0
+          arr[e], arr[e + 1] = arr[e + 1], arr[e]
           swap = true
         end
       end
