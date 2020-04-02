@@ -2,7 +2,7 @@ def bubble_sort(arr)
   return array if arr.length <= 1
   
   swap = true
-    while swap
+  while swap
       swap = false
       (arr.length - 1).times do |e|
         if arr[e] > arr[e + 1]
@@ -10,7 +10,7 @@ def bubble_sort(arr)
           swap = true
         end
       end
-    end
+  end
   arr
 end
 p bubble_sort(%w[4 3 78 2 0 2])
