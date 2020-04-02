@@ -13,6 +13,6 @@ def bubble_sort_by(arr)
     end
   arr
 end
-  p bubble_sort_by(['hi', 'hello', 'hey']) { |left, right|
+  p bubble_sort_by(%w[hi hello hey]) { |left, right|
     left.length - right.length
   }
