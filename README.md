@@ -1,22 +1,17 @@
-# bubble-sor
-
-
-![screenshot](./images/Screenshot.png)
+# bubble-sort
+This project is taken from: [odionhandle](https://www.theodinproject.com/courses/ruby-programming/lessons/advanced-building-blocks)
 
 ## Built With
-Ruby
-
-## Live Demo
-
-[Live Demo Link]()
+   Ruby
 
 ## Authors
 
 👤 **Paul chinweokwu **
 
-- Github: [@githubhandle](https://github.com/ricardo123321)
-- Twitter: [@twitterhandle](https://twitter.com/ricardo61592083)
-- Linkedin: [linkedin](https://www.linkedin.com/in/ricardo-vera-7381a81a2/)
+- Github: [@githubhandle](https://github.com/chinweokwu)
+- Twitter: [@twitterhandle](https://twitter.com/Morah89820846)
+- Linkedin: [linkedin](https://www.linkedin.com/in/paul-morah-285b63172/)
+
 
 👤 **Muhammad Arslan**
 
@@ -28,7 +23,7 @@ Ruby
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/arslanbisharat/New-York-Times-Page/issues).
+Feel free to check the [issues page](https://github.com/arslanbisharat/bubble-sort/issues).
 
 ## Show your support
 
